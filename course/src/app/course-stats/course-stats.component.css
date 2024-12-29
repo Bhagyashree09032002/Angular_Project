@@ -1,0 +1,13 @@
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .rating {
+    color: gold;
+  }

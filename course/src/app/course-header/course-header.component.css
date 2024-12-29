@@ -1,0 +1,33 @@
+h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #333; /* Darker header color for better contrast */
+    text-align: center;
+
+  }
+  
+  .logo{
+    /*background: #d8fdfd;*/
+    background-image: url('/vinsys.png');
+    width: 150px;
+    height: 100px;
+    background-repeat: no-repeat;
+    
+}
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fafdfd; /* Blue header color for emphasis */
+    
+    text-align: center;
+  }
+  .B{
+    align-items: left;
+   
+  }
+  .main{
+    display: flex;
+    flex: 2; text-align: center; padding: 20px;
+    color: #fafdfd;
+    
+  }

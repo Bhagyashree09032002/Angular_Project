@@ -1,0 +1,19 @@
+<p *ngIf="!showMore; else moreText">Java certification courses have high regard in the IT industry and are generally recommended to beginners who wish to pursue a glorious career in the information technology industry. Java programming language is one of the most promising, widely used, and dynamic programming languages in the world.</p>
+
+<ng-template #moreText>
+  <p>Java offers a vast ecosystem of libraries and frameworks, making it suitable for a wide range of applications, from web development to mobile app development and enterprise systems.</p>
+  <p>This course will provide you with a comprehensive understanding of Java fundamentals, including object-oriented programming concepts, data structures, algorithms, and more.</p>
+</ng-template>
+
+<button (click)="toggleReadMore()" class="read-more-btn">Read More</button>
+<div class="container">
+  <h2>Course Outcomes</h2>
+  <ul>
+    <li *ngFor="let outcome of courseOutcomes">
+      <h3>{{ outcome.topic }}</h3>
+      <ul>
+        <li *ngFor="let subTopic of outcome.subTopics">{{ subTopic }}</li>
+      </ul>
+    </li>
+  </ul>
+</div>
